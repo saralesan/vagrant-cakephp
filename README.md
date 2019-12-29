@@ -16,7 +16,7 @@ A vagrant that setup CakePHP and all its dependencies.
 
 1. Clone this repository
 
-    ```bash
+   ```bash
     git clone https://github.com/sdtorresl/vagrant-cakephp
    ```
 
@@ -24,7 +24,7 @@ A vagrant that setup CakePHP and all its dependencies.
     * APP_NAME: The name of your CakePHP app
     * DB_NAME: the name of your database
     * DB_USER: User of the database
-    * DB_PASSWORD: Password of the database 
+    * DB_PASSWORD: Password of the database
 
 1. Execute with vagrant:
 
