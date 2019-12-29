@@ -2,8 +2,10 @@
 
 ---
 
-Author: Sergio Torres (@sdtorresl)
+Author: Sergio Torres
+
 Version: 0.1
+
 
 A vagrant that setup CakePHP and all its dependencies.
 
