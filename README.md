@@ -1,7 +1,5 @@
 # Vagrant CakePHP
 
----
-
 Author: Sergio Torres
 
 Version: 0.1
@@ -18,9 +16,9 @@ A vagrant that setup CakePHP and all its dependencies.
 
 1. Clone this repository
 
-   ```bash
+    ```bass
     git clone https://github.com/sdtorresl/vagrant-cakephp
-   ```
+    ```
 
 1. Edit and modify variables in config.sh file:
     * APP_NAME: The name of your CakePHP app
