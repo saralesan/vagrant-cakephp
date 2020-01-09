@@ -1,1 +1,0 @@
-{"virtualbox":{"/var/www/html":{"owner":"vagrant","group":"www-data","mount_options":["dmode=755,fmode=755","uid=1000","gid=33"],"guestpath":"/var/www/html","hostpath":"/home/sdtorresl/Programming/PHP","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/sdtorresl/test","disabled":false,"__vagrantfile":true}}}
