@@ -33,7 +33,7 @@ A vagrant that setup CakePHP and all its dependencies.
     vagrant up
     ```
 
-1. Check installation in your web browser (replace APP_NAME var):
+1. Check installation in your web browser (replacing APP_NAME var):
 
     ```javascript
     http:/192.168.33.10/APP_NAME
