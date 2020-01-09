@@ -38,7 +38,7 @@ echo "Getting CakePHP..."
 chown -R vagrant:vagrant /var/www/html
 cd /var/www/html
 if [ -d "/var/www/html/$APP_NAME" ]; then
-    echo "$APP_NAME directory exists moving it..."
+    echo "$APP_NAME directory exists cleaning it..."
     rm -rf /var/www/html/$APP_NAME
 fi
 sudo -u vagrant composer create-project --prefer-dist cakephp/app:^3.8 $APP_NAME
