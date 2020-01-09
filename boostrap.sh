@@ -54,6 +54,8 @@ sed -i "s/DB_PASSWORD/$DB_PASSWORD/g" $CONFIG_DB
 sed -i "s/DB_USER/$DB_USER/g" $CONFIG_DB
 sed -i "s/127.0.0.1/0.0.0.0/g" /etc/mysqld/mysql.conf.d/mysql.conf
 
+systemctl restart mysql
+
 mysql -u root < $CONFIG_DB
 
 echo "Setting up CakePHP application..."
