@@ -17,7 +17,7 @@ apt-get update
 apt-get install -y apache2 mysql-server
 
 echo "Installing CakePHP dependencies..."
-apt-get install -y php php-cli php-json php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath php-intl unzip
+apt-get install -y php php-cli php-json php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath php-intl php-sqlite3 unzip
 systemctl restart apache2
 
 echo "Installing composer..."
@@ -41,7 +41,7 @@ if [ -d "/var/www/html/$APP_NAME" ]; then
     echo "$APP_NAME directory exists cleaning it..."
     rm -rf /var/www/html/$APP_NAME
 fi
-sudo -u vagrant composer create-project --prefer-dist cakephp/app:^3.8 $APP_NAME
+sudo -u vagrant composer create-project --prefer-dist cakephp/app:4.* $APP_NAME
 
 echo "Setting database..."
 CONFIG_DB_TEMPLATE="/vagrant/templates/init_db.sql"
